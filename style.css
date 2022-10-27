@@ -140,7 +140,7 @@ nav{
         grid-template-columns: repeat(2,auto);
     }
 }
-@media only screen and (max-width:788px) and (min-width:100px){
+@media only screen and (max-width:788px) and (min-width:332px){
     #container{
         grid-template-columns: repeat(1,auto);
     }
@@ -156,5 +156,14 @@ nav{
     background-color:#f7f7f7;
 
     }
+    .box{
+        width: 250px;
+    }
 } 
-
+@media only screen and (max-width:332px) and (min-width:100px)
+{
+    .box{
+        width:200px;
+        height:170;
+    }
+}
