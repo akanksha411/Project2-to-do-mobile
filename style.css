@@ -151,5 +151,10 @@ nav{
         justify-content: flex-start;
         padding: 0;
     }
+    #main-content{
+        height: 2000px;
+    background-color:#f7f7f7;
+
+    }
 } 
 
